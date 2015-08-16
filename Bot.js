@@ -177,7 +177,7 @@
         loggedInID: null,
         scriptLink: "https://rawgit.com/dj-monstercat/EF-Bot/master/BetaBot.js",
         cmdLink: "http://en-bot-commands.jimdo.com/",
-        chatLink: "https://rawgit.com/dj-monstercat/EF-Bot/master/en.json",
+        chatLink: "https://rawgit.com/dj-monstercat/-t--BoT/master/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -185,7 +185,7 @@
         settings: {
             botName: "EF-Bot",
             language: "english",
-            chatLink: "https://rawgit.com/dj-monstercat/EF-Bot/master/en.json",
+            chatLink: "https://rawgit.com/dj-monstercat/-t--BoT/master/en.json",
             maximumAfk: 120,
             afkRemoval: false,
             maximumDc: 60,
