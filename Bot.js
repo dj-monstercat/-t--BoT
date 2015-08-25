@@ -1847,13 +1847,12 @@
                         }
                         else {
                             trapbot.settings.filterChat = !trapbot.settings.filterChat;
-                            return API.sendChat(subChat(trapbot.chat.toggleon, {name: chat.un, 'function': trapbot.chat.chatfilter}));
-                        }
-                    }     
-                }  
-            },       
-               
-            gifCommand: {
+                       }    return API.sendChat(subChat(trapbot.chat.toggleon, {name: chat.un, 'function': trapbot.chat.chatfilter}));
+                   }    
+               }     
+           },  
+                  
+           gifCommand: {
                 command: ['gif', 'giphy'],
                 rank: 'user',
                 type: 'startsWith',
